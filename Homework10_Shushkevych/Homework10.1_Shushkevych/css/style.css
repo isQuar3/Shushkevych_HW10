@@ -1,4 +1,4 @@
-body {
+.container {
     background-image: url(../img/bgi.png);
     background-repeat: no-repeat;
 }
@@ -32,6 +32,10 @@ body {
     margin-left: 34px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
+}
+.nav__item:hover {
+    padding-top: 7px;
+    border-top: 3px solid #FF6033;
 }
 .nav__item--active {
     padding-top: 7px;
@@ -101,14 +105,13 @@ body {
     height: 700px;
     display: flex;
     align-items: center;
-    margin-top: -8px;
 }
 .info__title {
     font-size: 90px;
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     color: white;
-    margin-top: -31px;
+    margin-top: -46px;
     margin-bottom: -10px;
     margin-left: 21px;
 }
